@@ -1,0 +1,45 @@
+<svg width="539" height="718" viewBox="0 0 539 718" fill="none" xmlns="http://www.w3.org/2000/svg"><style><![CDATA[.motion_588_4135{animation: kf_588_4135_height_0 4.2s linear, kf_588_4135_opacity_0 4.2s linear, kf_588_4135_translate_0 4.2s linear; animation-iteration-count: infinite; }@keyframes kf_588_4135_height_0 { 0% { height: 0.1px; } 3.81% { animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1); height: 0.1px; } 14.762% { height: 77.245px; } 100% { height: 77.245px; } } @keyframes kf_588_4135_opacity_0 { 0% { opacity: 0; } 3.81% { opacity: 0; } 4.167% { opacity: 1; } 100% { opacity: 1; } } @keyframes kf_588_4135_translate_0 { 0% { translate: 0px 0px; } 100% { translate: 0px 0px; } }.motion_588_4137{animation: kf_588_4137_height_0 4.2s linear, kf_588_4137_opacity_0 4.2s linear, kf_588_4137_translate_0 4.2s linear; animation-iteration-count: infinite; }@keyframes kf_588_4137_height_0 { 0% { height: 0.1px; } 16.429% { animation-timing-function: ease-out; height: 0.1px; } 35.476% { height: 121.341px; } 100% { height: 121.341px; } } @keyframes kf_588_4137_opacity_0 { 0% { opacity: 0; } 16.429% { opacity: 0; } 16.786% { opacity: 1; } 100% { opacity: 1; } } @keyframes kf_588_4137_translate_0 { 0% { translate: 0px 0px; } 100% { translate: 0px 0px; } }.motion_588_4387{transform-box:view-box;transform-origin:220.86962890625px 282.92171478271484px;animation: kf_588_4387_translate_0 4.2s linear; animation-iteration-count: infinite; }@keyframes kf_588_4387_translate_0 { 0% { translate: 105.038px 137.08px; } 3.81% { animation-timing-function: cubic-bezier(0.3, 0, 0.7, 1); translate: 105.038px 137.08px; } 14.762% { animation-timing-function: ease-in-out; translate: 105.038px 59.834px; } 16.429% { animation-timing-function: ease-out; translate: 105.085px 60.671px; } 35.476% { translate: 0px 0px; } 100% { translate: 0px 0px; } }@media(prefers-reduced-motion:reduce){.web-motion{animation:none!important;transform:none!important;translate:none!important;scale:none!important;opacity:1!important}}]]></style>
+<g id="&#234;&#179;&#188;&#236;&#160;&#156;4_22561123_&#237;&#149;&#156;&#236;&#156;&#160;&#234;&#178;&#189;_10 Storytelling &#236;&#136;&#152;&#236;&#160;&#149;_8">
+<rect width="539" height="718" rx="30" fill="#2C94F7"/>
+<rect id="Rectangle 236" width="126.068" height="126.068" rx="5" transform="matrix(0.866025 0.5 -0.866025 0.5 268.027 503.145)" fill="black"/>
+<rect id="Rectangle 245" x="2.98023e-08" y="-0.5" width="30.4793" height="329.644" transform="matrix(-0.866025 -0.5 0.866025 -0.5 143.695 649.313)" fill="#CFF762" stroke="black"/>
+<rect id="Rectangle 246" width="29.593" height="8.76823" transform="matrix(0.866025 0.5 -0.866025 0.5 204.828 583.957)" fill="#617919"/>
+<rect id="Rectangle 8" x="0.433013" y="0.25" width="113.348" height="74.5094" transform="matrix(0.866025 -0.5 0 1 170.011 488.611)" fill="#001322" stroke="black"/>
+<rect id="Rectangle 9" x="-0.433013" y="-0.75" width="112.527" height="74.3665" transform="matrix(-0.866025 -0.5 0 -1 366.083 561.635)" fill="#001322" stroke="black"/>
+<rect id="Rectangle 2" x="-0.433013" y="-0.75" width="113.348" height="75.0938" transform="matrix(-0.866025 -0.5 0 -1 267.782 618.979)" fill="#064C96" stroke="black"/>
+<rect id="Rectangle 238" x="-0.433013" y="-0.75" width="30.1769" height="75.0938" transform="matrix(-0.866025 -0.5 0 -1 231.192 597.967)" fill="#617919" stroke="black"/>
+<rect id="Rectangle 4" x="0.433013" y="0.25" width="113.348" height="74.5094" transform="matrix(0.866025 -0.5 0 1 268.14 545.56)" fill="#064C96" stroke="black"/>
+<rect id="Rectangle 237" x="-2.98023e-08" y="0.5" width="116.433" height="116.433" rx="4.5" transform="matrix(0.866025 0.5 -0.866025 0.5 269.132 429.25)" fill="#2C94F7" stroke="black"/>
+<rect id="Rectangle 244" x="2.98023e-08" y="-0.5" width="30.4793" height="116.24" transform="matrix(-0.866025 -0.5 0.866025 -0.5 232.078 524.07)" fill="#CFF762" stroke="black"/>
+<g id="Group 233">
+<rect id="Rectangle 8_2" x="0.433013" y="0.25" width="117.271" height="77.0998" transform="matrix(0.866025 -0.5 0 1 188.109 409.65)" fill="#001322" stroke="black"/>
+<rect id="Rectangle 9_2" x="-0.433013" y="-0.75" width="116.421" height="76.9519" transform="matrix(-0.866025 -0.5 0 -1 390.942 485.244)" fill="#001322" stroke="black"/>
+<rect id="Rectangle 2_2" x="-0.433013" y="-0.75" width="117.271" height="77.7042" transform="matrix(-0.866025 -0.5 0 -1 289.266 544.555)" fill="#064C96" stroke="black"/>
+<rect id="Rectangle 4_2" x="0.433013" y="0.25" width="118.453" height="77.0998" transform="matrix(0.866025 -0.5 0 1 289.609 468.552)" fill="#064C96" stroke="black"/>
+<rect id="Rectangle 237_2" x="-2.98023e-08" y="0.5" width="120.462" height="120.462" rx="4.5" transform="matrix(0.866025 0.5 -0.866025 0.5 290.621 348.25)" fill="#2C94F7" stroke="black"/>
+</g>
+<g id="Group 234">
+<rect id="Rectangle 241" x="-0.866025" width="31.2464" height="120.341" transform="matrix(-0.866025 0.5 -0.866025 -0.5 357.396 430.103)" fill="#CFF762" stroke="black"/>
+<rect id="Rectangle 2_3" x="-0.433013" y="-0.75" width="118.345" height="78.3282" transform="matrix(-0.866025 -0.5 0 -1 265.192 468.092)" fill="#064C96" stroke="black"/>
+<rect id="Rectangle 4_3" x="0.433013" y="0.25" width="117.931" height="76.6284" transform="matrix(0.866025 -0.5 0 1 265.062 391.761)" fill="#064C96" stroke="black"/>
+<rect id="Rectangle 237_3" x="-2.98023e-08" y="0.5" width="120.462" height="120.462" rx="4.5" transform="matrix(0.866025 0.5 -0.866025 0.5 265.617 271.25)" fill="#2C94F7" stroke="black"/>
+<rect class="web-motion motion_588_4135" id="motion_588_4135" x="-0.433013" y="-0.25" width="31.3316" height="76.2452" transform="matrix(-0.866025 0.5 0 -1 335.196 427.775)" fill="#617919" stroke="black"/>
+<rect id="Rectangle 240" x="-0.433013" y="-0.25" width="31.2464" height="76.3354" transform="matrix(-0.866025 0.5 0 -1 358.122 506.052)" fill="#617919" stroke="black"/>
+<line id="Line 11" x1="321.751" y1="359.431" x2="217.751" y2="298.431" stroke="black"/>
+<rect class="web-motion motion_588_4137" id="motion_588_4137" x="-0.866025" width="31.2464" height="120.341" transform="matrix(-0.866025 0.5 -0.866025 -0.5 334.396 352.105)" fill="#CFF762" stroke="black"/>
+</g>
+<g class="web-motion motion_588_4387"><g id="motion_588_4387">
+<g id="Vector">
+<path d="M246.135 300.676L233 308.26L219.865 315.843L203.881 306.615L230.151 291.448L246.135 300.676Z" fill="#617919"/>
+<path d="M218 250.838C221.578 249.307 226.253 249.828 231.369 252.782C242.619 259.277 251.739 275.072 251.739 288.063C251.739 293.802 249.958 298.033 247 300.408V300.598L225 313.3V294.971C219.512 289.718 215.054 282.441 212.736 275.06L195 285.301V264.032L218 250.753V250.838Z" fill="#CFF762"/>
+<path d="M250.739 288.063C250.739 281.784 248.529 274.759 244.907 268.486C241.285 262.214 236.306 256.788 230.869 253.648C225.92 250.791 221.585 250.391 218.394 251.757L217.882 251.976L196 264.609V283.568L213.316 273.569L213.69 274.76C215.959 281.986 220.33 289.116 225.691 294.248L226 294.544V311.567L246 300.02V299.929L246.374 299.629C249.019 297.505 250.739 293.614 250.739 288.063ZM251.739 288.063C251.739 293.802 249.958 298.033 247 300.408V300.598L225 313.3V294.971C219.512 289.718 215.054 282.441 212.736 275.06L195 285.301V264.032L218 250.753V250.838C221.578 249.307 226.253 249.828 231.369 252.782C242.619 259.277 251.739 275.072 251.739 288.063Z" fill="black"/>
+<path d="M210.37 264.781C221.619 271.276 230.739 287.072 230.739 300.062C230.739 313.053 221.619 318.318 210.37 311.823C199.12 305.328 190 289.532 190 276.542C190 263.552 199.12 258.286 210.37 264.781Z" fill="#617919"/>
+<path d="M210.369 265.781C199.598 259.562 190.866 264.604 190.866 277.042C190.866 289.48 199.598 304.604 210.369 310.823C221.141 317.042 229.873 312.001 229.874 299.563L230.739 300.062L230.733 300.666C230.454 313.214 221.444 318.217 210.37 311.823C199.12 305.328 190 289.532 190 276.542C190 263.552 199.12 258.286 210.37 264.781L210.895 265.092C221.902 271.769 230.739 287.275 230.739 300.062L229.874 299.563C229.874 287.125 221.141 272 210.369 265.781Z" fill="black"/>
+<path d="M210.369 275.588C216.45 279.099 221.38 287.638 221.38 294.66C221.38 301.682 216.45 304.529 210.369 301.017C204.287 297.506 199.357 288.968 199.357 281.946C199.357 274.923 204.287 272.077 210.369 275.588Z" fill="black"/>
+<path d="M210.369 276.588C204.766 273.353 200.224 275.976 200.223 282.445C200.223 288.915 204.766 296.783 210.369 300.018C215.972 303.252 220.514 300.63 220.514 294.16L221.38 294.66L221.376 294.986C221.228 301.662 216.509 304.387 210.653 301.178L210.369 301.017C204.287 297.506 199.357 288.968 199.357 281.946L199.361 281.619C199.512 274.836 204.382 272.132 210.369 275.588L210.653 275.757C216.603 279.366 221.38 287.748 221.38 294.66L220.514 294.16C220.514 287.69 215.972 279.823 210.369 276.588Z" fill="black"/>
+</g>
+</g></g>
+
+
+</g>
+</svg>
