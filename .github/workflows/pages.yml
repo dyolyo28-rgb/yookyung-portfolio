@@ -1,0 +1,68 @@
+name: Publish portfolio
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/pages.yml', 'site/**']
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import portfolio and assets
+        shell: python
+        run: |
+          import pathlib, re, urllib.request, concurrent.futures
+          origin = "https://yookyung-type-entrance.hazyspool8.chatgpt.site/"
+          root = pathlib.Path("site")
+          root.mkdir(exist_ok=True)
+          def fetch(relative):
+              request = urllib.request.Request(origin + relative, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(request, timeout=90) as response:
+                  return response.read()
+          index = root / "index.html"
+          if not index.exists():
+              html = fetch("").decode("utf-8")
+              if "work-page" not in html or "project-detail" not in html:
+                  raise RuntimeError("Source did not return the portfolio")
+              html = re.sub(r"<script\\b[^>]*>[^<]*__CF[\\s\\S]*?</script>", "", html, flags=re.I)
+              index.write_text(html, encoding="utf-8")
+          html = index.read_text(encoding="utf-8")
+          assets = sorted(set(re.findall(r"assets/[A-Za-z0-9_.\\/-]+", html)))
+          def copy(relative):
+              destination = root / relative
+              if not destination.exists():
+                  data = fetch(relative)
+                  destination.parent.mkdir(parents=True, exist_ok=True)
+                  destination.write_bytes(data)
+              print(relative)
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+              list(pool.map(copy, assets))
+          (root / ".nojekyll").touch()
+          print(f"Portfolio ready: {len(assets)} assets")
+      - name: Preserve imported website in GitHub
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add site
+          if ! git diff --cached --quiet; then
+            git commit -m "Import portfolio website and assets"
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
